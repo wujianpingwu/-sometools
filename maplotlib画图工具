@@ -1,0 +1,30 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+import matplotlib.dates as mdate
+import matplotlib.ticker as mticker
+from matplotlib import style
+plt.rcParams['font.sans-serif'] = ['KaiTi'] # 指定默认字体
+plt.rcParams['axes.unicode_minus'] = False # 解决保存图像是负号'-'显示为方块的问题
+#查看当前样式
+plt.style.available
+
+#格式化x轴标签时间显示和标签显示数量
+ax1.xaxis.set_major_formatter(mdate.DateFormatter("%Y-%m-%d"))
+ax1.xaxis.set_major_locator(mticker.MaxNLocator(12))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
